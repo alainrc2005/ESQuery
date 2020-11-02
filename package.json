@@ -1,0 +1,24 @@
+{
+  "name": "ESQuery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "Alain Ramirez Cabrejas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@asymmetrik/elastic-querybuilder": "^0.9.12",
+    "@babel/polyfill": "^7.12.1",
+    "@elastic/elasticsearch": "^7.9.1",
+    "dotenv": "^8.2.0"
+  }
+}
